@@ -1,0 +1,299 @@
+*{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+}
+
+:root {
+    --unjclr: #89AB0Eff;
+    --unjclr2: #a4cc44;
+	--unjclr3: rgb(186, 209, 105);
+	--unjclr4: #8aa90d;
+	--unjclr5: #e9f6cb;
+    --black: #393939;
+}
+
+body {
+	font: 550 0.875rem/1.375rem "Raleway", sans-serif;
+}
+
+.fw-bold {
+    font-weight: bold;
+}
+
+.p-large {
+	font: 550 1rem/1.5rem "Raleway", sans-serif;
+
+}
+
+.p-small {
+	font: 550 0.75rem/1.25rem "Raleway", sans-serif;
+}
+
+.p-heading {
+	margin-bottom: 3.875rem;
+}
+
+/*---Navbar--*/
+.row-cols-auto {
+	background-color: var(--unjclr); 
+	color: black;
+}
+
+.navbar-custom {
+	background-color: #fff;
+	box-shadow: 0 0.0625rem 0.375rem 0 rgba(0, 0, 0, 0.1);
+	font: 700 0.875rem/0.875rem "Raleway", sans-serif;
+	transition: all 0.2s;
+}
+
+.navbar-custom .navbar-brand {
+	font: 600 1.5rem/1.5rem "Raleway", sans-serif;
+	color: var(--unjclr2);
+	text-decoration: none;
+}
+
+.navbar-custom .navbar-nav {
+	margin-top: 0.75rem;
+	margin-bottom: 0.5rem;
+}
+
+.navbar-custom .nav-item .nav-link {
+	padding: 0.625rem 1rem 0.625rem 2rem;
+	color: var(--black);
+	text-decoration: none;
+	transition: all 0.2s ease;
+}
+
+.navbar-custom .nav-item .nav-link:hover,
+.navbar-custom .nav-item .nav-link.active {
+	color: var(--unjclr2);
+}
+
+.navbar-custom .social-icons {
+	display: none;
+}
+
+.navbar-custom .navbar-toggler {
+	border: none;
+	color: var(--black);
+	font-size: 3rem;
+}
+
+.navbar-custom button[aria-expanded='false'] .navbar-toggler-awesome.fas.fa-times{
+	display: none;
+}
+
+.navbar-custom button[aria-expanded='false'] .navbar-toggler-awesome.fas.fa-bars{
+	display: inline-block;
+}
+
+.navbar-custom button[aria-expanded='true'] .navbar-toggler-awesome.fas.fa-bars{
+	display: none;
+}
+
+.navbar-custom button[aria-expanded='true'] .navbar-toggler-awesome.fas.fa-times{
+	display: inline-block;
+	margin-right: 0.125rem;
+}
+
+.bgcolor.scrolled{
+	background-color: #fff;
+	transition: ease-in-out 0.5;
+}
+
+.navbar-custom .social-icons {
+	display: block;
+	margin-left: 0.5rem;
+}
+
+.navbar-custom .fa-stack {
+	margin-bottom: 0.1875rem;
+	margin-left: 2rem;
+	font-size: 0.7rem;
+}
+
+.navbar-custom .fa-stack .badge {
+	font-size: 0.5rem;
+}
+
+.navbar-custom .fa-stack-2x {
+	color: var(--black);
+	transition: all 0.2s ease;
+}
+
+.navbar-custom .fa-stack:hover .fa-stack-2x {
+	color: var(--unjclr2);
+}
+
+.navbar-custom.top-nav-collapse .fa-stack-2x {
+	color: var(--unjclr2);
+}
+	
+.navbar-custom.top-nav-collapse .fa-stack:hover .fa-stack-2x {
+	color: #fff;
+}
+/* end of navbar*/
+
+/*Isi Konten*/
+.min-vh-500 .row {
+	height: 50vh;
+	background-color: var(--unjclr5);
+}
+
+/*buat segitiga*/
+.min-vh-500 .row .col-1 .triangle{
+	position: absolute;
+	top: 100px;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 70px 0 70px 70px;
+	border-color: transparent transparent transparent var(--unjclr3);
+}
+
+.min-vh-500 .row .col-1 .triangle2 {
+	position: relative;
+	top: 128px;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 40px 0 40px 40px;
+	border-color: transparent transparent transparent var(--unjclr2);
+}
+
+.min-vh-500 .row .col-1 .triangle3{
+	position: absolute;
+	bottom: 30px;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 50px 0 50px 50px;
+	border-color: transparent transparent transparent var(--unjclr2);
+}
+
+.min-vh-500 .row .col-5 {
+	padding-top: 7rem;
+}
+
+.min-vh-500 .row .h1 {
+	font-size: 2rem;
+}
+
+.min-vh-500 .row .col-6 img {
+	width: 500px;
+	height: 100%;
+	float: right;
+}
+
+/*segitiga yang sebelah kiri image*/
+.min-vh-500 .row .col-6 .triangle4 {
+	position: absolute;
+	margin-left: 175px;
+	top: 0;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 165px 150px 164px 0;
+	border-color: var(--unjclr5) transparent var(--unjclr5) transparent ;
+}
+
+.min-vh-500 .row .col-6 .triangle5 {
+	position: absolute;
+	top: 100px;
+	right: 0;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 70px 70px 70px 0;
+	border-color: transparent rgb(186, 209, 105,.6) transparent transparent ;
+}
+
+.min-vh-500 .row .col-6 .triangle6{
+	position: absolute;
+	top: 128px;
+	right: 0;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 40px 40px 40px 0;
+	border-color: transparent var(--unjclr2) transparent transparent ;
+}
+
+/*container kedua*/
+.min-vh-500 .my-5 .h2 {
+	margin: auto auto 40px auto;
+	width: fit-content;
+	border-bottom: 5px solid var(--unjclr2);
+}
+
+.min-vh-500 .my-5 button {
+	background-color: var(--unjclr2);
+	border: none;
+	border-radius: 50px;
+}
+
+.min-vh-500 .my-5 button:hover {
+	background-color: var(--unjclr3);
+}
+
+/*kontainer pilihan kantin*/
+.min-vh-500 .my-4 .h2 {
+	width: 600px;
+	border-bottom: 5px solid var(--unjclr2);
+}
+
+.min-vh-500 .my-4 button {
+	float: right;
+	background-color: var(--unjclr2);
+	border: none;
+	border-radius: 50px;
+}
+
+.min-vh-500 .my-4 button:hover {
+	background-color: var(--unjclr3);
+}
+
+/*kontainer pilihan kantin2*/
+.min-vh-500 .bg-transparent .col {
+	height: 283px;
+	color: #fff;
+	font: bold 1.5rem "Raleway", sans-serif;
+}
+
+.min-vh-500 .bg-transparent .row .card-img {
+	width: 100%;
+}
+
+/*quotes tahu*/
+.min-vh-500 .card h1 {
+	color: var(--unjclr2);
+	font: bold 2.1rem "Raleway", sans-serif;
+}
+
+/*warung pak muh*/
+.min-vh-500 .row-cols-3 {
+	background-color: #fff;
+	padding-left: 50px;
+}
+
+.min-vh-500 .row-cols-3 .col {
+	height: 283px;
+	color: black;
+	font: bold 0.9rem "Raleway", sans-serif;
+}
+
+.min-vh-500 .row-cols-3 .col .card {
+	box-shadow: 0 2px 4px var(--black);
+}
+
+/*Footer*/
+.text-lg-start {
+    background-color: var(--unjclr);
+}
+
+.text-start {
+    font-weight: bold;
+    background-color: var(--black);
+} 
