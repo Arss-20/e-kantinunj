@@ -54,16 +54,16 @@
                 </a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link page-scroll" href="#header">HOME<span class="sr-only">(current)</span></a>
+                <a class="nav-link page-scroll" href="index.html">HOME<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link page-scroll" href="#about" >KANTIN</a>
+                <a class="nav-link page-scroll" href="kantin.php" >KANTIN</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link page-scroll" href="#modul">TENTANG KAMI</a>
+                <a class="nav-link page-scroll" href="about.php">TENTANG KAMI</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link page-scroll" href="journal.html">KONTAK KAMI</a>
+                    <a class="nav-link page-scroll" href="kontak.php">KONTAK KAMI</a>
                 </li> 
             </ul>
         
